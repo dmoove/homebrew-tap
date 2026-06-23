@@ -1,28 +1,28 @@
 class Tplr < Formula
   desc "Replace secret placeholders in configuration files"
   homepage "https://github.com/dmoove/tplr"
-  version "0.7.0"
+  version "0.7.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/dmoove/tplr/releases/download/v0.7.0/tplr-darwin-arm64.tar.gz"
-      sha256 "31d9326156c4cb8491fc7cc30d3525d5f3fb83dc08c59dfa691b2cc334408a6e"
+      url "https://github.com/dmoove/tplr/releases/download/v0.7.1/tplr-darwin-arm64.tar.gz"
+      sha256 "29c92da51d4669d552b363757d3b1cc1776f7a6caf8dfdf66ad800c0ce00ef63"
     end
     on_intel do
-      url "https://github.com/dmoove/tplr/releases/download/v0.7.0/tplr-darwin-amd64.tar.gz"
-      sha256 "e0b89acf94c14c4b70dd8d4d03e73e380eb3002cff2459bf55c61528494cdedf"
+      url "https://github.com/dmoove/tplr/releases/download/v0.7.1/tplr-darwin-amd64.tar.gz"
+      sha256 "a112fa5a8cbae4e890e9e4e20dc54b26a220fb68b484986db306e0c36157db18"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dmoove/tplr/releases/download/v0.7.0/tplr-linux-arm64.tar.gz"
-      sha256 "29242c63dbfeefbec814f8e560d1760b9db68d5a4aeab6ac9a73d2fec82a8096"
+      url "https://github.com/dmoove/tplr/releases/download/v0.7.1/tplr-linux-arm64.tar.gz"
+      sha256 "b17c8f168e0c133c96aaf369c330d6bccad790d2d502ede72dab0e97235f94b5"
     end
     on_intel do
-      url "https://github.com/dmoove/tplr/releases/download/v0.7.0/tplr-linux-amd64.tar.gz"
-      sha256 "27d16b5d7c1a8296b8f155fa9a7233051672a5a65135b06b6f89e9ceec9aed8a"
+      url "https://github.com/dmoove/tplr/releases/download/v0.7.1/tplr-linux-amd64.tar.gz"
+      sha256 "9732c0f0c076cf929f92cc9cd50d268fafd0716720aef77783ae065f087d4633"
     end
   end
 
